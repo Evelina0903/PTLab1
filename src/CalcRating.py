@@ -3,8 +3,8 @@ from Types import DataType
 
 RatingType = dict[str, float]
 
-class CalcRating:
-    
+
+class CalcRating: 
 
     def __init__(self, data: DataType) -> None:
         self.data: DataType = data
